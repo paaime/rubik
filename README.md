@@ -27,7 +27,7 @@ make
 ### Basic Usage
 
 ```bash
-./rubik "U R2 F' D"
+python3 main.py "U R2 F' D"
 ```
 
 This will solve a cube that has been scrambled with the moves U, R2, F', D
@@ -35,7 +35,7 @@ This will solve a cube that has been scrambled with the moves U, R2, F', D
 ### Random Scramble
 
 ```bash
-./rubik -r 20
+python3 main.py -r 20
 ```
 
 This will generate and solve a random scramble of 20 moves
@@ -43,7 +43,7 @@ This will generate and solve a random scramble of 20 moves
 ### With Visualization
 
 ```bash
-./rubik "U R2 F' D" -v
+python3 main.py "U R2 F' D" -v
 ```
 
 This will show a 3D visualization of both the scramble and solution
@@ -73,7 +73,7 @@ The program provides detailed solution information including:
 ## Example
 
 ```bash
-./rubik "R U R' U'"
+python3 main.py "R U R' U'"
 
 =================================================
                     RESULTS                  
